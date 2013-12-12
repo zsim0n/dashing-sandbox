@@ -31,14 +31,12 @@ class install_ruby {
 
   rvm::system_user { vagrant: ; }
 
-  rvm_system_ruby {
-    'ruby-2.0.0-p353':
+  rvm_system_ruby { 'ruby-2.0.0-p353':
     ensure => 'present',
     default_use => true
   }
 
-  rvm_gem {
-    'bundler':
+  rvm_gem { 'bundler':
     name => 'bundler',
     ensure       => latest,
     ruby_version => 'ruby-2.0.0-p353',
@@ -48,7 +46,14 @@ class install_ruby {
     command => '/usr/local/rvm/bin/rvm ruby-2.0.0-p353 do gem update'
   }
 
-  Rvm_system_ruby['ruby-2.0.0-p353']->Rvm_Gem['bundler']->Exec['gem_update']
+  rvm_gem { 'dashing':
+    name => 'dashing',
+    ensure       => latest,
+    ruby_version => 'ruby-2.0.0-p353',
+  }
+
+  Rvm_system_ruby['ruby-2.0.0-p353']->Rvm_Gem['bundler']->Exec['gem_update']->Rvm_Gem['dashing']
+
 }
 
 class { 'install_ruby' : }
