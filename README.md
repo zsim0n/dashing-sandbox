@@ -19,6 +19,7 @@ Check [the rails dev box](https://github.com/zsim0n/rails-dev-box) for system re
     host $ vagrant ssh
     host $ dashing new dashing_sandbox
     host $ cd dashing_sandbox
+    host $ bundle
     host $ dashing start
     
 Point your browser at localhost:3030 and have fun!
