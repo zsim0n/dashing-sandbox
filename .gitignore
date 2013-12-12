@@ -1,0 +1,5 @@
+.vagrant
+.idea
+/puppet/modules/
+/puppet/.tmp
+Puppetfile.lock
