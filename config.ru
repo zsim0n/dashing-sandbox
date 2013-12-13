@@ -1,7 +1,7 @@
 require 'dashing'
 
 configure do
-  set :auth_token, 'b9d95727-bf75-419e-95e2-004295544c1a'
+  set :auth_token, '916f33b1-fda3-4300-83c5-9404c9985a50'
   set :default_dashboard, 'demo_simple' #<==== set default dashboard like this
   helpers do
     def protected!
