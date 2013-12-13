@@ -38,6 +38,7 @@ for details
 
 ## License
 
-Released under the MIT License, Copyright (c) 2013–<i>ω</i> Zoltan Simo
+Released under the MIT License, Copyright (c) 2013–<i>ω</i> Zoltan Simon.
+
 
 
