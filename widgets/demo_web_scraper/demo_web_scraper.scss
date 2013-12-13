@@ -1,0 +1,1425 @@
+.widget-demo-web-scraper {
+  table {
+    font-size: 14px;
+
+  }
+  th h2 {
+    color:#666;
+
+  }
+  .hidden
+  {
+    display: none;
+  }
+  /* TRAFIK INFO */
+  /* VIGTIG DISSE SKAL LIGGE FØRST I DENNE RÆKKEFØLGE */
+
+  .Bem
+  {
+    text-align: left;
+    vertical-align: middle;
+    width: auto;
+  }
+
+  .Status
+  {
+    text-align: left;
+    vertical-align: middle;
+    width: auto;
+  }
+
+  .visikke
+  {
+    display: none;
+    padding-left: 5px;
+    width: 0px;
+  }
+  /*SLUT VIGTIG DISSE SKAL LIGGE FØRST I DENNE RÆKKEFØLGE */
+
+  .div_artikelcontentstation
+  {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 677px;
+  }
+
+  .afgang
+  {
+    background: #7E96A4;
+    color: #FFFFFF;
+    display: inline;
+    float: left;
+    height: 30px;
+    text-align: center;
+    width: 106px;
+  }
+
+  .afgangslukket
+  {
+    background: #D6DFE5;
+    border-bottom: 1px solid #EAEFF2;
+    border-right: 1px solid #EAEFF2;
+    color: #FFFFFF;
+    display: inline;
+    float: left;
+    height: 29px;
+    text-align: center;
+    width: 105px;
+  }
+
+  .visning
+  {
+    display: inline;
+    float: right;
+  }
+
+  .ankomst
+  {
+    background: #7E96A4;
+    color: #FFFFFF;
+    display: inline;
+    float: left;
+    height: 30px;
+    text-align: center;
+    width: 129px;
+  }
+
+  .ankomstslukket
+  {
+    background: #D6DFE5;
+    border-bottom: 1px solid #EAEFF2;
+    border-left: 1px solid #EAEFF2;
+    color: #FFFFFF;
+    display: inline;
+    float: left;
+    height: 29px;
+    text-align: center;
+    width: 128px;
+  }
+
+  a.tablink, a.tablink:visited, a.tablink:hover
+  {
+    color: #FFFFFF;
+    display: block;
+    font-size: 110%;
+    font-weight: bold;
+    padding-top: 4px;
+    text-decoration: none;
+  }
+
+  .div_tidContainer
+  {
+    border: 10px solid #7E96A4;
+    float: left;
+    overflow: hidden;
+    width: 657px;
+  }
+
+  .vistabel
+  {
+    display: table;
+  }
+
+  .gemtabel
+  {
+    display: none;
+  }
+
+  .visikketable
+  {
+    display: none;
+  }
+
+  .vistable
+  {
+    display: inline;
+  }
+  /* TRAFIK TABEL */
+
+  .Trafinfo
+  {
+    background: #EAEFF2;
+    width: 657px;
+  }
+
+  .Trafinfo td, .Trafinfo th
+  {
+    background: #C2D0D8;
+    height: 28px;
+  }
+
+  tr.oddtr td, tr.oddtr th
+  {
+    background: #D6DFE5;
+  }
+
+  tr.firsttr td, tr.firsttr th
+  {
+    background: #EAEFF2;
+  }
+  /**/
+
+  tr.firsttr th h2
+  {
+    font-size: 100%;
+  }
+
+  .Til
+  {
+    text-align: left;
+    vertical-align: middle;
+    width: 115px;
+  }
+
+  .Bem span.bemtype
+  {
+    color: #ff9900;
+    font-size: 110%;
+    font-weight: bold;
+    margin-left: 5px;
+    padding: 0 5px 0 5px;
+  }
+
+  td.Tidsstreg
+  {
+    background: #7e96A4;
+    border-bottom: 1px solid #EAEFF2;
+    border-top: 1px solid #EAEFF2;
+    height: 7px;
+  }
+
+  .Afg
+  {
+    color: #008000;
+  }
+
+  .Ank
+  {
+    color: #0000FF;
+  }
+
+  #choosestationbutton
+  {
+    background: url(http://trafikinfo.bane.dk/Content/Img/sprite.gif) -1041px -456px no-repeat;
+    border: 0 none;
+    height: 18px;
+    width: 108px;
+  }
+
+  #navn
+  {
+    display: inline;
+    float: left;
+  }
+
+  .stationsnavn
+  {
+    background: #7E96A4;
+    border-left: 10px solid #F07100;
+    color: #FFFFFF;
+    display: inline;
+    display: inline;
+    float: left;
+    height: 30px;
+    margin-bottom: 20px;
+    width: 648px;
+  }
+
+  .stationsnavn h2, .stationsnavn .Overskrift2
+  {
+    color: #FFFFFF;
+    padding: 5px 0px 0px 10px;
+  }
+
+  td.Til a, td.Til a:visited, td.visikke a, td.visikke a:visited, td.Bem a, td.Bem a:visited
+  {
+    color: #436375;
+  }
+
+  td.TogType a, td.TogType a:visited
+  {
+    color: #436375;
+  }
+
+  .stationsliste
+  {
+    width: 600px;
+  }
+
+  .Oversigt td
+  {
+    vertical-align: top;
+  }
+
+  table.Oversigt
+  {
+    width: 150px;
+  }
+
+  table.rute
+  {
+    border: 1px solid #F07100;
+  }
+
+  td.Rute_Stat, td.Rute_AnkAfg, td.Rute_AnkAfg
+  {
+    width: 130px;
+  }
+
+  .Aflyst
+  {
+    color: #F07100;
+  }
+
+  .aktueltskjul
+  {
+    display: none;
+    width: 0px;
+  }
+
+  .aktuelStatus
+  {
+    width: 140px;
+  }
+
+  .akutelBem
+  {
+    width: 140px;
+  }
+
+  .forklaring
+  {
+    display: inline;
+    float: left;
+    margin-top: 10px;
+  }
+
+  .forklaring img
+  {
+    margin-right: 5px;
+  }
+
+  .opdateringsinfo
+  {
+    display: inline;
+    float: right;
+    margin-top: 10px;
+    text-align: right;
+  }
+  /* Forsiden */
+
+  .forside
+  {
+    background: #607C8C;
+    clear: both;
+    display: inline;
+    float: left;
+    font-size: 100%;
+    margin-top: 10px;
+    width: 316px;
+  }
+
+  .forside td
+  {
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 28px;
+  }
+
+  tr.firstfronttr td
+  {
+    background: #53687C;
+  }
+
+  .koll1
+  {
+    padding-left: 5px;
+    width: 59px;
+  }
+
+  .koll2
+  {
+    width: 138px;
+  }
+
+  .koll3
+  {
+    width: 119px;
+  }
+
+  td.stationstd
+  {
+    background-color: #607C8C;
+    border-collapse: collapse;
+    border-left: 4px #F07100;
+    color: #FFFFFF;
+    padding-left: 5px;
+  }
+
+  tr.oddfronttr td
+  {
+    background: #53687C;
+  }
+
+  a.forside_link, a.forside_link:visited
+  {
+    color: #FFFFFF;
+  }
+  /* UREGELMÆSSIGHEDER */
+
+  .tableskjul, .div_sbane
+  {
+    display: none;
+    float: left;
+  }
+
+  .tablevis
+  {
+    border: 10px solid #7E96A4;
+    border-top: 0 none;
+    clear: both;
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 638px;
+  }
+
+  #sbaneinfo, #fjerninfo
+  {
+    background: #7E96A4;
+    min-height: 113px;
+    overflow: hidden;
+    width: 638px;
+  }
+
+  .tablevis p
+  {
+    color: #ffffff;
+    display: inline;
+    float: left;
+    margin-left: 9px;
+    width: 239px;
+  }
+
+  .tablevis .div_trafikmeldinger
+  {
+    background: url(http://trafikinfo.bane.dk/Content/Img/uregeli.gif) no-repeat #EAEFF2;
+    display: inline;
+    float: right;
+    margin: 17px 0px 0 0;
+    padding: 5px 0 10px 45px;
+    width: 289px;
+  }
+
+  .tablevis .div_trafikmeldinger p
+  {
+    color: #436375;
+    margin: 0;
+  }
+
+  .tablevis .div_trafikmeldinger p.datestamp
+  {
+    font-size: 91%;
+    margin-top: 8px;
+  }
+
+  .tablevis .div_trafikmeldinger p.infotid
+  {
+    width: 80px;
+  }
+
+  .tablevis .div_trafikmeldinger p a, .tablevis .div_trafikmeldinger p a:visited
+  {
+    color: #436375;
+    text-decoration: underline;
+  }
+
+  .tablevis .div_trafikmeldinger p a:hover
+  {
+    color: #F07100;
+  }
+  /* UREGELMÆSSIGHEDER TABEL */
+
+  h3.OV1
+  {
+    display: none;
+  }
+
+  table.forsink
+  {
+    background: #eaeff2;
+    border: 0 none;
+    clear: both;
+    display: inline;
+    float: left;
+    width: 638px;
+  }
+
+  table.forsink td
+  {
+    height: 28px;
+    margin: 1px 1px 1px 1px;
+    padding: 0 3px 0 3px;
+  }
+
+  tr.L1
+  {
+    background: #c2d0d8;
+  }
+
+  tr.L0
+  {
+    background: #d6dfe5;
+  }
+
+  p.ajour
+  {
+    color: #436375;
+    float: right;
+    padding-right: 5px;
+    text-align: right;
+  }
+
+  address
+  {
+    display: none;
+    float: right;
+    padding-right: 5px;
+    text-align: right;
+  }
+
+  table.forsink a, table.forsink a:visited
+  {
+    color: #436375;
+  }
+
+  tr.L3
+  {
+    font-weight: bold;
+  }
+
+  .iframe
+  {
+    width: 697px;
+  }
+
+
+  /*
+      BEGIN - Trafikinfo.css
+  */
+
+  .Bem
+  {
+    padding-left: 5px;
+    text-align: left;
+    vertical-align: middle;
+    width: auto;
+  }
+
+  .Status
+  {
+    padding-left: 5px;
+    text-align: left;
+    vertical-align: middle;
+    width: auto;
+  }
+
+  .visikke
+  {
+    DISPLAY: none;
+    PADDING-LEFT: 10px;
+    PADDING-RIGHT: 10px;
+    WIDTH: 0px;
+  }
+
+  .visttabek
+  {
+    DISPLAY: table-cell;
+  }
+
+  .div_artikelcontentstation
+  {
+    PADDING-LEFT: 10px;
+    PADDING-RIGHT: 10px;
+    WIDTH: 677px;
+  }
+
+  .afgang
+  {
+    BACKGROUND: #7e96a4;
+    COLOR: #ffffff;
+    DISPLAY: inline;
+    FLOAT: left;
+    HEIGHT: 30px;
+    TEXT-ALIGN: center;
+    WIDTH: 106px;
+  }
+
+  .afgangslukket
+  {
+    BACKGROUND: #d6dfe5;
+    BORDER-BOTTOM: #eaeff2 1px solid;
+    BORDER-RIGHT: #eaeff2 1px solid;
+    COLOR: #ffffff;
+    DISPLAY: inline;
+    FLOAT: left;
+    HEIGHT: 29px;
+    TEXT-ALIGN: center;
+    WIDTH: 105px;
+  }
+
+  .visning
+  {
+    DISPLAY: inline;
+    FLOAT: right;
+  }
+
+  .ankomst
+  {
+    BACKGROUND: #7e96a4;
+    COLOR: #ffffff;
+    DISPLAY: inline;
+    FLOAT: left;
+    HEIGHT: 30px;
+    TEXT-ALIGN: center;
+    WIDTH: 129px;
+  }
+
+  .ankomstslukket
+  {
+    BACKGROUND: #d6dfe5;
+    BORDER-BOTTOM: #eaeff2 1px solid;
+    BORDER-LEFT: #eaeff2 1px solid;
+    COLOR: #ffffff;
+    DISPLAY: inline;
+    FLOAT: left;
+    HEIGHT: 29px;
+    TEXT-ALIGN: center;
+    WIDTH: 128px;
+  }
+
+  A.tablink
+  {
+    COLOR: #ffffff;
+    DISPLAY: block;
+    FONT-SIZE: 110%;
+    FONT-WEIGHT: bold;
+    PADDING-TOP: 4px;
+    TEXT-DECORATION: none;
+  }
+
+  A.tablink:visited
+  {
+    COLOR: #ffffff;
+    DISPLAY: block;
+    FONT-SIZE: 110%;
+    FONT-WEIGHT: bold;
+    PADDING-TOP: 4px;
+    TEXT-DECORATION: none;
+  }
+
+  A.tablink:hover
+  {
+    COLOR: #ffffff;
+    DISPLAY: block;
+    FONT-SIZE: 110%;
+    FONT-WEIGHT: bold;
+    PADDING-TOP: 4px;
+    TEXT-DECORATION: none;
+  }
+
+  .div_tidContainer
+  {
+    BACKGROUND: #7e96a4;
+    BORDER-BOTTOM: #7e96a4 10px solid;
+    BORDER-LEFT: #7e96a4 10px solid;
+    BORDER-RIGHT: #7e96a4 10px solid;
+    BORDER-TOP: #7e96a4 10px solid;
+    FLOAT: left;
+    OVERFLOW: hidden;
+    WIDTH: 657px;
+  }
+
+  .vistabel
+  {
+    DISPLAY: table;
+  }
+
+  .gemtabel
+  {
+    DISPLAY: none;
+  }
+
+  .visikketable
+  {
+    DISPLAY: none;
+  }
+
+  .vistable
+  {
+    DISPLAY: inline;
+  }
+
+  .Trafinfo
+  {
+    BACKGROUND: #eaeff2;
+    WIDTH: 657px;
+  }
+
+  .Trafinfo TD
+  {
+    BACKGROUND: #c2d0d8;
+    HEIGHT: 28px;
+  }
+
+  .Trafinfo TH
+  {
+    BACKGROUND: #c2d0d8;
+    HEIGHT: 28px;
+  }
+
+  TR.oddtr TD
+  {
+    BACKGROUND: #d6dfe5;
+  }
+
+  TR.oddtr TH
+  {
+    BACKGROUND: #d6dfe5;
+  }
+
+  TR.firsttr TD
+  {
+    BACKGROUND: #eaeff2;
+  }
+
+  TR.firsttr TH
+  {
+    BACKGROUND: #eaeff2;
+  }
+
+  TR.firsttr TH H2
+  {
+    FONT-SIZE: 100%;
+  }
+
+  .Tid
+  {
+    padding-left: 10px;
+    text-align: right;
+    vertical-align: middle;
+    width: 46px;
+  }
+
+  .opdater
+  {
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+  }
+
+  .TogType
+  {
+    padding-right: 10px;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 72px;
+  }
+
+  .Til
+  {
+    WIDTH: 100px;
+  }
+
+  .Bem SPAN.bemtype
+  {
+    COLOR: #ff9900;
+    FONT-SIZE: 110%;
+    FONT-WEIGHT: bold;
+    MARGIN-LEFT: 5px;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 5px;
+    PADDING-RIGHT: 5px;
+    PADDING-TOP: 0px;
+  }
+
+  TD.Tidsstreg
+  {
+    BACKGROUND: #7e96a4;
+    BORDER-BOTTOM: #eaeff2 1px solid;
+    BORDER-TOP: #eaeff2 1px solid;
+    HEIGHT: 7px;
+  }
+
+  .Afg
+  {
+    COLOR: #008000;
+  }
+
+  .Ank
+  {
+    COLOR: #0000ff;
+  }
+
+  #choosestationbutton
+  {
+    BACKGROUND: url(../media/global/sprite.gif) no-repeat -1041px -456px;
+    BORDER-BOTTOM: 0px;
+    BORDER-LEFT: 0px;
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    HEIGHT: 18px;
+    WIDTH: 108px;
+  }
+
+  #navn
+  {
+    DISPLAY: inline;
+    FLOAT: left;
+  }
+
+  .stationsnavn
+  {
+    BACKGROUND: #7e96a4;
+    BORDER-LEFT: #f07100 10px solid;
+    COLOR: #ffffff;
+    DISPLAY: inline;
+    FLOAT: left;
+    HEIGHT: 30px;
+    MARGIN-BOTTOM: 20px;
+    WIDTH: 667px;
+  }
+
+  .stationsnavn H2
+  {
+    COLOR: #ffffff;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 10px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 5px;
+  }
+
+  .stationsnavn .Overskrift2
+  {
+    COLOR: #ffffff;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 10px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 5px;
+  }
+
+  TD.Til A
+  {
+    COLOR: #436375;
+  }
+
+  TD.visikke A
+  {
+    COLOR: #436375;
+    TEXT-DECORATION: underline;
+  }
+
+  TD.Bem A
+  {
+    COLOR: #436375;
+  }
+
+  TD.Til A:visited
+  {
+    COLOR: #436375;
+  }
+
+  TD.visikke A:visited
+  {
+    COLOR: #436375;
+  }
+
+  TD.Bem A:visited
+  {
+    COLOR: #436375;
+  }
+
+  TD.Til A:hover
+  {
+    COLOR: #f07100;
+  }
+
+  TD.visikke A:hover
+  {
+    COLOR: #f07100;
+  }
+
+  TD.Bem A:hover
+  {
+    COLOR: #f07100;
+  }
+
+  TD.TogType A
+  {
+    COLOR: #436375;
+  }
+
+  TD.TogType A:visited
+  {
+    COLOR: #436375;
+  }
+
+  .stationsliste
+  {
+    WIDTH: 600px;
+  }
+
+  .Oversigt TD
+  {
+    VERTICAL-ALIGN: top;
+  }
+
+  TABLE.Oversigt
+  {
+    WIDTH: 150px;
+  }
+
+  TABLE.rute
+  {
+    BORDER-BOTTOM: #f07100 1px solid;
+    BORDER-LEFT: #f07100 1px solid;
+    BORDER-RIGHT: #f07100 1px solid;
+    BORDER-TOP: #f07100 1px solid;
+  }
+
+  TD.Rute_Stat
+  {
+    WIDTH: 130px;
+  }
+
+  TD.Rute_AnkAfg
+  {
+    WIDTH: 130px;
+  }
+
+  TD.Rute_AnkAfg
+  {
+    WIDTH: 130px;
+  }
+
+  .Aflyst
+  {
+    COLOR: #f07100;
+  }
+
+  .aktueltskjul
+  {
+    DISPLAY: none;
+    WIDTH: 0px;
+  }
+
+  .aktuelStatus
+  {
+    WIDTH: 140px;
+  }
+
+  .akutelBem
+  {
+    WIDTH: 140px;
+  }
+
+  .visAdv
+  {
+    DISPLAY: inline;
+  }
+
+  .forklaring
+  {
+    DISPLAY: inline;
+    FLOAT: left;
+    MARGIN-TOP: 10px;
+  }
+
+  .forklaring IMG
+  {
+    MARGIN-RIGHT: 5px;
+  }
+
+  .opdateringsinfo
+  {
+    DISPLAY: inline;
+    FLOAT: right;
+    MARGIN-TOP: 10px;
+    TEXT-ALIGN: right;
+  }
+
+  .forside
+  {
+    BACKGROUND: #607c8c;
+    CLEAR: both;
+    DISPLAY: inline;
+    FLOAT: left;
+    FONT-SIZE: 100%;
+    MARGIN-TOP: 10px;
+    WIDTH: 316px;
+  }
+
+  .forside TD
+  {
+    COLOR: #ffffff;
+    FONT-WEIGHT: bold;
+    HEIGHT: 28px;
+  }
+  /*TR.firstfronttr TD { BACKGROUND: #53687 }*/
+
+  .koll1
+  {
+    PADDING-LEFT: 5px;
+    WIDTH: 59px;
+  }
+
+  .koll2
+  {
+    WIDTH: 138px;
+  }
+
+  .koll3
+  {
+    WIDTH: 119px;
+  }
+
+  TD.stationstd
+  {
+    BACKGROUND-COLOR: #607c8c;
+    BORDER-COLLAPSE: collapse;
+    BORDER-LEFT: #f07100 4px;
+    COLOR: #ffffff;
+    PADDING-LEFT: 5px;
+  }
+
+  TR.oddfronttr TD
+  {
+    BACKGROUND: #53687c;
+  }
+
+  A.forside_link
+  {
+    COLOR: #ffffff;
+  }
+
+  A.forside_link:visited
+  {
+    COLOR: #ffffff;
+  }
+
+  .tableskjul
+  {
+    DISPLAY: none;
+    FLOAT: left;
+  }
+
+  .div_sbane
+  {
+    DISPLAY: none;
+    FLOAT: left;
+  }
+
+  .tablevis
+  {
+    BORDER-BOTTOM: #7e96a4 10px solid;
+    BORDER-LEFT: #7e96a4 10px solid;
+    BORDER-RIGHT: #7e96a4 10px solid;
+    BORDER-TOP: 0px;
+    CLEAR: both;
+    DISPLAY: inline;
+    FLOAT: left;
+    OVERFLOW: hidden;
+    WIDTH: 638px;
+  }
+
+  #sbaneinfo
+  {
+    BACKGROUND: #7e96a4;
+    MIN-HEIGHT: 113px;
+    OVERFLOW: hidden;
+    WIDTH: 638px;
+  }
+
+  #fjerninfo
+  {
+    BACKGROUND: #7e96a4;
+    MIN-HEIGHT: 113px;
+    OVERFLOW: hidden;
+    WIDTH: 638px;
+  }
+
+  .tablevis P
+  {
+    COLOR: #ffffff;
+    DISPLAY: inline;
+    FLOAT: left;
+    MARGIN-LEFT: 9px;
+    WIDTH: 239px;
+  }
+
+  .tablevis .div_trafikmeldinger
+  {
+    BACKGROUND: url(../media/trafikinfo/uregeli.gif) #eaeff2 no-repeat;
+    DISPLAY: inline;
+    FLOAT: right;
+    MARGIN: 17px 0px 0px;
+    PADDING-BOTTOM: 10px;
+    PADDING-LEFT: 45px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 5px;
+    WIDTH: 289px;
+  }
+
+  .tablevis .div_trafikmeldinger P
+  {
+    COLOR: #436375;
+    MARGIN: 0px;
+  }
+
+  .tablevis .div_trafikmeldinger P.datestamp
+  {
+    FONT-SIZE: 91%;
+    MARGIN-TOP: 8px;
+  }
+
+  .tablevis .div_trafikmeldinger P.infotid
+  {
+    WIDTH: 80px;
+  }
+
+  .tablevis .div_trafikmeldinger P A
+  {
+    COLOR: #436375;
+    TEXT-DECORATION: underline;
+  }
+
+  .tablevis .div_trafikmeldinger P A:visited
+  {
+    COLOR: #436375;
+    TEXT-DECORATION: underline;
+  }
+
+  .tablevis .div_trafikmeldinger P A:hover
+  {
+    COLOR: #f07100;
+  }
+
+  H3.OV1
+  {
+    DISPLAY: none;
+  }
+
+  TABLE.forsink
+  {
+    BACKGROUND: #eaeff2;
+    BORDER-BOTTOM: 0px;
+    BORDER-LEFT: 0px;
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    CLEAR: both;
+    DISPLAY: inline;
+    FLOAT: left;
+    WIDTH: 638px;
+  }
+
+  TABLE.forsink TD
+  {
+    HEIGHT: 28px;
+    MARGIN: 1px;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 3px;
+    PADDING-RIGHT: 3px;
+    PADDING-TOP: 0px;
+  }
+
+  TR.L1
+  {
+    BACKGROUND: #c2d0d8;
+  }
+
+  TR.L0
+  {
+    BACKGROUND: #d6dfe5;
+  }
+
+  P.ajour
+  {
+    COLOR: #436375;
+    FLOAT: right;
+    PADDING-RIGHT: 5px;
+    TEXT-ALIGN: right;
+  }
+
+  ADDRESS
+  {
+    DISPLAY: none;
+    FLOAT: right;
+    PADDING-RIGHT: 5px;
+    TEXT-ALIGN: right;
+  }
+
+  TABLE.forsink A
+  {
+    COLOR: #436375;
+  }
+
+  TABLE.forsink A:visited
+  {
+    COLOR: #436375;
+  }
+
+  TR.L3
+  {
+    FONT-WEIGHT: bold;
+  }
+
+  .ingenmelding
+  {
+    HEIGHT: 67px;
+  }
+
+  .top_service
+  {
+    FLOAT: left;
+    MARGIN-BOTTOM: 10px;
+    WIDTH: 100%;
+  }
+
+  #search_visStation
+  {
+    FLOAT: left;
+  }
+
+  .station_changes
+  {
+    BACKGROUND: url(http://trafikinfo.bane.dk/Content/Img/changes_bg.gif) #4d5e74 repeat-x;
+    COLOR: white;
+    DISPLAY: none;
+    FLOAT: right;
+    MARGIN-LEFT: 3px;
+    WIDTH: 235px;
+  }
+
+  #station_planlagte #station_planlagte_text
+  {
+    MIN-HEIGHT: 80px;
+  }
+
+  #station_akutte
+  {
+    BACKGROUND: url(http://trafikinfo.bane.dk/Content/Img/trafik_akutte.gif) #eaeff2 repeat-y;
+    COLOR: #436375;
+  }
+
+  #station_akutte #station_akutte_text
+  {
+    BACKGROUND: url(http://trafikinfo.bane.dk/Content/Img/trafik_akutte_med_icon.gif) no-repeat;
+    MIN-HEIGHT: 80px;
+    PADDING-LEFT: 40px;
+  }
+
+  #station_akutte .pager .pager_text
+  {
+    BACKGROUND: url(http://trafikinfo.bane.dk/Content/Img/trafik_akutte_bg_lowest.gif);
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    HEIGHT: 17px;
+    WIDTH: 192px;
+  }
+
+  #station_akutte .pager .pager_tilbage
+  {
+    BACKGROUND: url(http://trafikinfo.bane.dk/Content/Img/trafik_akutte_pager_left.gif);
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    HEIGHT: 17px;
+    WIDTH: 18px;
+  }
+
+  #station_akutte .pager .pager_tilbage_hover
+  {
+    BACKGROUND: url(http://trafikinfo.bane.dk/Content/Img/trafik_akutte_pager_left_hover.gif);
+  }
+
+  #station_akutte .pager .pager_frem
+  {
+    BACKGROUND: url(http://trafikinfo.bane.dk/Content/Img/trafik_akutte_pager_right.gif);
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    HEIGHT: 17px;
+    WIDTH: 17px;
+  }
+
+  #station_akutte .pager .pager_frem_hover
+  {
+    BACKGROUND: url(http://trafikinfo.bane.dk/Content/Img/trafik_akutte_pager_right_hover.gif);
+  }
+
+  #station_akutte_text TABLE A
+  {
+    COLOR: #436375;
+  }
+
+  #station_akutte_text TABLE A:hover
+  {
+    COLOR: #436375;
+  }
+
+  #station_akutte_text TABLE A:visited
+  {
+    COLOR: #436375;
+  }
+
+  .station_changes_text TABLE
+  {
+    MARGIN-LEFT: 4px;
+    MARGIN-TOP: 4px;
+  }
+
+  .station_changes_text TABLE A
+  {
+    COLOR: white;
+  }
+
+  #station_changes_text TABLE A:hover
+  {
+    COLOR: white;
+  }
+
+  .station_changes_text TABLE A:visited
+  {
+    COLOR: white;
+  }
+
+  .station_changes_text TABLE.hide
+  {
+    DISPLAY: none;
+  }
+
+  .station_changes_text TD.bold
+  {
+    FONT-WEIGHT: bold;
+  }
+
+  .station_changes .pager
+  {
+    FLOAT: left;
+  }
+
+  .pager_text
+  {
+    BACKGROUND: url(http://trafikinfo.bane.dk/Content/Img/changes_lbl_bg.gif) repeat-x;
+    BORDER-BOTTOM: #47576a 1px solid;
+    BORDER-LEFT: #47576a 1px solid;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: #47576a 1px solid;
+    FLOAT: left;
+    PADDING-RIGHT: 8px;
+    TEXT-ALIGN: right;
+    WIDTH: 191px;
+  }
+
+  .pager_tilbage
+  {
+    BACKGROUND: url(http://trafikinfo.bane.dk/Content/Img/pager_left.gif);
+    BORDER-BOTTOM: #47576a 1px solid;
+    BORDER-LEFT: #47576a 1px solid;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: #47576a 1px solid;
+    CURSOR: pointer;
+    FLOAT: left;
+    HEIGHT: 15px;
+    WIDTH: 16px;
+  }
+
+  .pager_tilbage_hover
+  {
+    BACKGROUND: url(http://trafikinfo.bane.dk/Content/Img/pager_left_hover.gif);
+  }
+
+  .pager_frem
+  {
+    BACKGROUND: url(http://trafikinfo.bane.dk/Content/Img/pager_frem.gif);
+    BORDER-BOTTOM: #47576a 1px solid;
+    BORDER-LEFT: #47576a 1px solid;
+    BORDER-RIGHT: #47576a 1px solid;
+    BORDER-TOP: #47576a 1px solid;
+    CURSOR: pointer;
+    FLOAT: left;
+    HEIGHT: 15px;
+    WIDTH: 16px;
+  }
+
+  .pager_frem_hover
+  {
+    BACKGROUND: url(http://trafikinfo.bane.dk/Content/Img/pager_frem_hover.gif);
+  }
+
+  .showonlyContainer
+  {
+    COLOR: white;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 10px;
+  }
+
+  #lblShowOnly
+  {
+    DISPLAY: block;
+    FLOAT: left;
+  }
+
+  .showonly
+  {
+    BACKGROUND: url(http://trafikinfo.bane.dk/Content/Img/opdater_textbox.gif) no-repeat;
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    HEIGHT: 18px;
+    MARGIN-LEFT: 10px;
+    MARGIN-RIGHT: 2px;
+    WIDTH: 145px;
+  }
+
+  #submit
+  {
+    BACKGROUND: url(http://trafikinfo.bane.dk/Content/Img/opdater.gif);
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    CURSOR: pointer;
+    FLOAT: left;
+    HEIGHT: 18px;
+    WIDTH: 75px;
+  }
+
+  .hide
+  {
+    DISPLAY: none;
+  }
+
+  .showonlyContainer #reset
+  {
+    BACKGROUND: url(http://trafikinfo.bane.dk/Content/Img/reset-knap.gif);
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    CURSOR: pointer;
+    FLOAT: left;
+    HEIGHT: 18px;
+    MARGIN-LEFT: 2px;
+    WIDTH: 75px;
+  }
+
+
+
+}
