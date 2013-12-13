@@ -1,0 +1,32 @@
+<script type='text/javascript'>
+$(function() {
+  Dashing.widget_margins = [1, 1]
+  Dashing.widget_base_dimensions = [150, 150]
+  Dashing.numColumns = 8
+});
+</script>
+
+<% content_for :title do %>Web scraper Demo<% end %>
+<div class="gridster">
+    <ul>
+         <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+            <div data-view="Clock"></div>
+            <i class="icon-time icon-background"></i>
+        </li>
+        <li data-row="1" data-col="1" data-sizex="5" data-sizey="1">
+             <div data-id="demo-text-3-1" data-view="Text" data-title="" data-text="Ankomst til Valby" class="large"></div>
+        </li>
+        <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+             <div data-id="demo-spacer" data-view="Text"></div>
+        </li>
+        <li data-row="2" data-col="1" data-sizex="1" data-sizey="2">
+             <div data-id="demo-spacer" data-view="Text" data-bgcolor="#EB8500"></div>
+        </li>
+        <li data-row="2" data-col="3" data-sizex="4" data-sizey="2">
+            <div data-id="demo-web-scraper-1" data-view="DemoWebScraper"></div>
+        </li>
+        <li data-row="3" data-col="1" data-sizex="8" data-sizey="1">
+             <div data-id="demo-spacer" data-view="Text"></div>
+        </li>
+  </ul>
+</div>
