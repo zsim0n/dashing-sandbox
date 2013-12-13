@@ -1,9 +1,8 @@
 class Dashing.Text extends Dashing.Widget
 
   ready: ->
-    
-    $(@node).css("background-color",$(@node).attr("data-bgcolor")) if $(@node).attr("data-bgcolor")?
 
+    $(@node).css("background-color",$(@node).attr("data-bgcolor")) if $(@node).attr("data-bgcolor")?
 
   onData: (data) ->
     # Handle incoming data
