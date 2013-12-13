@@ -1,5 +1,9 @@
 # Dashing sandbox
+
 [![Build Status](https://snap-ci.com/dltHYuoZfMNIDBFBaBSh5acIY91rtOeQcGsruD4p3HU/build_image)](https://snap-ci.com/projects/zsim0n/dashing-sandbox/build_history)
+
+[![Heroku app](https://d1lpkba4w1baqt.cloudfront.net/heroku-logo-light-88x31.png)](http://dashing-sandbox.herokuapp.com/)
+
 ## Introduction
 
 Sandbox project for *"The exceptionally handsome dashboard framework"* [Dashing](http://shopify.github.io/dashing/). 
