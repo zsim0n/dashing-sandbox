@@ -1,5 +1,5 @@
 # Dashing sandbox
-
+[![Build Status](https://snap-ci.com/dltHYuoZfMNIDBFBaBSh5acIY91rtOeQcGsruD4p3HU/build_image)](https://snap-ci.com/projects/zsim0n/dashing-sandbox/build_history)
 ## Introduction
 
 Sandbox project for *"The exceptionally handsome dashboard framework"* [Dashing](http://shopify.github.io/dashing/). 
