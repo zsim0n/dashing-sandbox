@@ -2,7 +2,7 @@ require 'dashing'
 
 configure do
   set :auth_token, 'b9d95727-bf75-419e-95e2-004295544c1a'
-
+  set :default_dashboard, 'demo_1' #<==== set default dashboard like this
   helpers do
     def protected!
      # Put any authentication code you want in here.
