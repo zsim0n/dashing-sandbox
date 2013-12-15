@@ -1,5 +1,4 @@
-class Dashing.AcapelaAudio extends Dashing.Widget
-
+class Dashing.DemoAcapelaAudio extends Dashing.Widget
 
   onData: (data) ->
 

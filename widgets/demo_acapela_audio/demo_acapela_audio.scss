@@ -1,13 +1,25 @@
 // ----------------------------------------------------------------------------
 // Sass declarations
 // ----------------------------------------------------------------------------
-$background-color:  #dc5945;
+$background-color:  #2C4267;
 
+$title-color:       #607C8C;
+
+$moreinfo-color:    #FFF;
 // ----------------------------------------------------------------------------
-// Widget-clock styles
+// Widget-acapela-audio styles
 // ----------------------------------------------------------------------------
-.widget-clock {
+.widget-demo-acapela-audio {
 
   background-color: $background-color;
 
+  .title {
+    color: $title-color;
+    font-size: 32px;
+    margin: 0;
+  }
+
+  .updated-at {
+    color: rgba(255, 255, 255, 0.7);
+  }
 }

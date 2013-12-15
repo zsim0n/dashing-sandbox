@@ -1,13 +1,11 @@
 // ----------------------------------------------------------------------------
 // Sass declarations
 // ----------------------------------------------------------------------------
-$background-color:  #2C4267;
+$background-color:  #ec663c;
 
-$title-color:       #607C8C;
+$title-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
 
-$moreinfo-color:    #FFF;
-$text-align: left;
-$padding-left: 50px;
 // ----------------------------------------------------------------------------
 // Widget-text styles
 // ----------------------------------------------------------------------------
@@ -15,24 +13,12 @@ $padding-left: 50px;
 
   background-color: $background-color;
 
-  .text-text {
-    font-size: 48px;
-    text-align: $text-align;
-    padding-left: $padding-left;
-  }
   .title {
     color: $title-color;
-    font-size:16px;
-    margin: 0;
-    text-align: $text-align;
-    padding-left: $padding-left;
   }
 
   .more-info {
     color: $moreinfo-color;
-    font-size:32px;
-    text-align: $text-align;
-    padding-left: $padding-left;
   }
 
   .updated-at {
