@@ -2,6 +2,8 @@
 $(function() {
   Dashing.widget_base_dimensions = [150, 180]
   Dashing.numColumns = 8
+
+  Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":2,"size_y":1},{"col":3,"row":1,"size_x":4,"size_y":1},{"col":1,"row":2,"size_x":1,"size_y":2},{"col":3,"row":2,"size_x":3,"size_y":1},{"col":6,"row":2,"size_x":2,"size_y":1},{"col":3,"row":3,"size_x":4,"size_y":1}]')
 });
 </script>
 <style>
@@ -21,16 +23,19 @@ $(function() {
             <i class="icon-time icon-background"></i>
         </li>
         <li data-row="1" data-col="3" data-sizex="4" data-sizey="1">
-             <div data-id="demo-text-1" data-view="DemoText" data-title="" data-text="8:40" class="large"></div>
+             <div data-id="demo-text-1" data-view="DemoText" data-title="" data-text="13:51" class="large"></div>
         </li>
         <li data-row="2" data-col="1" data-sizex="1" data-sizey="2">
              <div data-id="demo-spacer-1" data-view="DemoSpacer" data-bgcolor="#EB8500"></div>
         </li>
-        <li data-row="2" data-col="3" data-sizex="2" data-sizey="2">
-            <div data-id="demo-text-2" data-view="DemoText" data-title="Til" data-text="Århus" data-moreinfo="Frederikshavn"></div>
+        <li data-row="2" data-col="3" data-sizex="3" data-sizey="1">
+            <div data-id="demo-text-2" data-view="DemoText" data-title="Til" data-text="Sønderborg" data-moreinfo=""></div>
         </li>
-        <li data-row="2" data-col="5" data-sizex="2" data-sizey="2">
-            <div data-id="demo-text-3" data-view="DemoText" data-title="Vogn" data-text="71-72" data-moreinfo="61-62"></div>
+        <li data-row="2" data-col="5" data-sizex="2" data-sizey="1">
+            <div data-id="demo-text-3" data-view="DemoText" data-title="Vogn" data-text="11-14" data-moreinfo=""></div>
         </li>
+      <li data-row="3" data-col="1" data-sizex="4" data-sizey="1">
+        <div data-id="demo-text-4" data-view="DemoText" data-text="Ringsted Sorø Slagelse Korsør Nyborg Odense Middlefart Kolding Lunderskov Vamdrup Vojens Rødekro Tinglev Kliplev Gråsten"></div>
+      </li>
   </ul>
 </div>
