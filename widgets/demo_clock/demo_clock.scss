@@ -9,6 +9,9 @@ $background-color:  #2C4267;
 .widget-demo-clock {
 
   background-color: $background-color;
+  &.newblue {
+    background-color: #294457;
+  }
 
 }
 
@@ -18,3 +21,4 @@ $background-color:  #2C4267;
 .clock-date {
   font-size: 24px;
 }
+

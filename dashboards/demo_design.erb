@@ -1,25 +1,56 @@
 <script type='text/javascript'>
 $(function() {
-  Dashing.widget_base_dimensions = [150, 180]
+  Dashing.widget_margins = [0, 0]
+  Dashing.widget_base_dimensions = [150, 90]
   Dashing.numColumns = 8
 });
 </script>
 <style>
     body {
-      background-color: #FFF !important;
+      background-color: #000 !important;
     }
 
 </style>
-<% content_for :title do %>First Demo<% end %>
+<% content_for :title do %>Design Demo<% end %>
 <div class="gridster">
     <ul>
-         <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
-            <div data-view="Clock"></div>
-            <i class="icon-time icon-background"></i>
-        </li>
-        <li data-row="1" data-col="3" data-sizex="2" data-sizey="1">
-          <div data-id="welcome" data-view="Text" data-title="Ankomst tog." data-moreinfo="Protip: You can drag the widgets around!"></div>
-        </li>
+      <li data-row="1" data-col="1" data-sizex="2" data-sizey="2">
+        <div data-view="DemoClock" class="newblue"></div>
+      </li>
+      <li data-row="1" data-col="3" data-sizex="5" data-sizey="2">
+        <div data-id="demo-text-d1" data-view="DemoText" data-text="13:51" class="newblue"></div>
+      </li>
+      <li data-row="1" data-col="7" data-sizex="1" data-sizey="2">
+        <div data-id="demo-text-d2" data-view="DemoText" data-text="DSB IC" class="normal newblue"></div>
+      </li>
+      <li data-row="2" data-col="1" data-sizex="5" data-sizey="2">
+        <div data-id="demo-text-d2" data-view="DemoText" data-title="Til" data-text="CPH Lufthavn <i class='fa fa-plane'></i>" data-moreinfo=""  class="newlightblue">
+        </div>
+      </li>
+      <li data-row="2" data-col="6" data-sizex="3" data-sizey="2">
+        <div data-id="demo-text-d3" data-view="DemoText" data-title="Vogn" data-text="21-22" data-moreinfo="" class="newlightblue"></div>
+      </li>
+      <li data-row="3" data-col="1" data-sizex="6" data-sizey="1" >
+        <div data-id="demo-text-d4" data-view="DemoText"  class="newlightblue small" data-text="Ringsted Sorø Slagelse Korsør Nyborg Odense Middlefart Kolding Lunderskov Vamdrup Vojens Rødekro Tinglev Kliplev Gråsten"></div>
+      </li>
+      <li data-row="3" data-col="6" data-sizex="2" data-sizey="1">
+        <div data-id="demo-text-d5" data-view="DemoText"  class="newblue"></div>
+      </li>
+      <li data-row="4" data-col="1" data-sizex="8" data-sizey="1">
+        <div data-id="demo-text-d6" data-view="DemoText"  class="newblue"></div>
+      </li>
+      <li data-row="4" data-col="1" data-sizex="2" data-sizey="2">
+        <div data-id="demo-text-d5" data-view="DemoText"  class="normal black" data-title="Næste tog" data-text="14:34"></div>
+      </li>
+      <li data-row="4" data-col="3" data-sizex="2" data-sizey="2">
+        <div data-id="demo-text-d5" data-view="DemoText"  class="normal black" data-title="Til" data-text="Frederika"></div>
+      </li>
+      <li data-row="4" data-col="5" data-sizex="2" data-sizey="2">
+        <div data-id="demo-text-d5" data-view="DemoText"  class="normal black" data-title="Vogn" data-text="81-82"></div>
+      </li>
+      <li data-row="4" data-col="7" data-sizex="2" data-sizey="2">
+        <div data-id="demo-text-d5" data-view="DemoText"  class="normal black" data-title="Notat" data-text="Toget kører ikke videre"></div>
+      </li>
 
   </ul>
 </div>
