@@ -50,21 +50,25 @@ $padding-left: 50px;
   &.small h3 {
       font-size:16px;
   }
-  &.demo-text-4 {
-    .text-text {
-      font-size:16px;
-    }
-  }
+
   &.newblue {
-    background-color: #294457;
+    $color : #294457;
+    background-color: $color;
+    &.xmas {
+      background-color: rgba($color,0.7);
+    }
   }
   &.newlightblue {
     background-color: #3e6582;
   }
 
   &.black {
-    background-color: #000;
     vertical-align: top;
+    $color : #000;
+    background-color: $color;
+    &.xmas {
+      background-color: rgba($color,0.7);
+    }
 
   }
 
