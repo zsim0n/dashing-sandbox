@@ -1,0 +1,67 @@
+<script type='text/javascript'>
+$(function() {
+  Dashing.widget_margins = [0, 0]
+  Dashing.widget_base_dimensions = [150, 90]
+  Dashing.numColumns = 8
+
+    snowflakes = new Snowflakes('container','snowflakesContainer');
+    snowflakes.create(80);
+});
+</script>
+<style>
+    body {
+      background-color: #000 !important;
+    }
+
+</style>
+
+<% content_for :title do %>Design Demo<% end %>
+
+<% content_for :scripts_and_styles do %>
+    <link href="/libs/CSS3-Snowflakes/css/snowflakes.css" rel="stylesheet" media="screen" />
+    <script src="/libs/CSS3-Snowflakes/js/snowflakes.js" type="text/javascript"></script>
+<% end %>
+
+<div class="gridster">
+    <ul>
+      <li data-row="1" data-col="1" data-sizex="2" data-sizey="2">
+        <div data-view="DemoClock" class="newblue xmas"></div>
+      </li>
+      <li data-row="1" data-col="3" data-sizex="5" data-sizey="2">
+        <div data-id="demo-text-x1" data-view="DemoText" data-text="13:51" class="newblue xmas"></div>
+      </li>
+      <li data-row="1" data-col="7" data-sizex="1" data-sizey="2">
+        <div data-id="demo-text-x2" data-view="DemoText" data-text="<img src='/images/santa-icon.png' style='position:relative;top:30px;opacity:0.7;z-index:200'/>DSB IC" class="normal newblue xmas"></div>
+      </li>
+      <li data-row="2" data-col="1" data-sizex="5" data-sizey="2">
+        <div data-id="demo-text-x3" data-view="DemoText" data-title="Til" data-text="CPH Lufthavn <i class='fa fa-plane'></i>" data-moreinfo=""  class="newlightblue  xmas">
+        </div>
+      </li>
+      <li data-row="2" data-col="6" data-sizex="3" data-sizey="2">
+        <div data-id="demo-text-x4" data-view="DemoText" data-title="Vogn" data-text="21-22" data-moreinfo="" class="newlightblue  xmas"></div>
+      </li>
+      <li data-row="3" data-col="1" data-sizex="6" data-sizey="1" >
+        <div data-id="demo-text-x5" data-view="DemoText"  class="newlightblue small  xmas" data-text="Ringsted Sorø Slagelse Korsør Nyborg Odense Middlefart Kolding Lunderskov Vamdrup Vojens Rødekro Tinglev Kliplev Gråsten"></div>
+      </li>
+      <li data-row="3" data-col="6" data-sizex="2" data-sizey="1">
+        <div data-id="demo-text-x6" data-view="DemoText"  class="newblue xmas"></div>
+      </li>
+      <li data-row="4" data-col="1" data-sizex="8" data-sizey="1">
+        <div data-id="demo-text-x7" data-view="DemoText"  class="newblue xmas"></div>
+      </li>
+      <li data-row="4" data-col="1" data-sizex="2" data-sizey="2">
+        <div data-id="demo-text-x8" data-view="DemoText"  class="normal black xmas" data-title="Næste tog" data-text="14:34"></div>
+      </li>
+      <li data-row="4" data-col="3" data-sizex="2" data-sizey="2">
+        <div data-id="demo-text-x9" data-view="DemoText"  class="normal black xmas" data-title="Til" data-text="Frederika"></div>
+      </li>
+      <li data-row="4" data-col="5" data-sizex="2" data-sizey="2">
+        <div data-id="demo-text-x10" data-view="DemoText"  class="normal black xmas" data-title="Vogn" data-text="81-82"></div>
+      </li>
+      <li data-row="4" data-col="7" data-sizex="2" data-sizey="2">
+        <div data-id="demo-text-x11" data-view="DemoText"  class="normal black xmas" data-title="Notat" data-text="Toget kører ikke videre"></div>
+      </li>
+
+  </ul>
+</div>
+<div id="snowflakesContainer"></div>
